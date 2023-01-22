@@ -1,0 +1,11 @@
+region="ap-south-1"
+cidr_block="10.0.0.0/16"
+environment="DEV"
+name="myEMRdemo"
+release_label="emr-6.9.0"
+applications=["Hadoop","Spark"]
+key_name="emrdemo"
+master_instance="m5.xlarge"
+master_ebs_vol="50"
+core_instance="m5.xlarge"
+core_ebs_vol="50"
